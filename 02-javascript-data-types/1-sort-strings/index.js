@@ -5,7 +5,7 @@
  * @returns {string[]}
  */
 
-export const sortStrings = (arr, param = "asc") => {
+export function sortStrings(arr, param = "asc") {
 
   const locales = ["ru", "en"];
   const options = {caseFirst: "upper"};
