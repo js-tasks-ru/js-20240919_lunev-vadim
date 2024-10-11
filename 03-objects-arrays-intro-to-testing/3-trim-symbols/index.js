@@ -14,6 +14,6 @@ export const trimSymbols = (string, size) => {
   }).join("").split(".").map((item) => {
     return item.slice(0, size);
   }).join("");
-}
+};
 
 

@@ -11,13 +11,3 @@ export function createGetter(path) {
     }
   };
 }
-
-const product = {
-  category: {
-    title: "Goods"
-  }
-};
-
-const getter = createGetter('category.title');
-
-console.log(getter(product)); // Goods
